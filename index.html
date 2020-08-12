@@ -6,17 +6,28 @@
     <title>Phantom Link</title>
   </head>
   <body>
-    <section>
+    <section class="container">
       <form novalidate>
+        <input
+          id="url"
+          name="Url"
+          type="url"
+          placeholder="Enter a valid URL"
+          required
+        />
         <label for="url">Submit a Link</label>
-        <input id="url" name="Url" type="url" required />
         <span id="url-error" aria-live="polite"></span>
-        <button type="submit">Submit</button>
+        <button id="url-submit" type="submit">Submit</button>
       </form>
     </section>
-    <section>
+    <section class="container">
       <ul id="url-list"></ul>
-      <div id="pagination"></div>
+      <div style="display: flex;">
+        <button id="back-pagination"><</button>
+        <div id="pagination"></div>
+        <button id="forward-pagination">></button>
+      </div>
+      <a class="result" href="result.html">Submit links</a>
     </section>
     <script src="script.js"></script>
   </body>
