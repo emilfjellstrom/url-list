@@ -14,7 +14,7 @@ java -jar compiler.jar --compilation_level ADVANCED_OPTIMIZATIONS --js result.js
 
 2.  **Open the source code**
 
-    Your site is now running at `https://relaxed-wing-3caa71.netlify.app/`!
+    Your site is now running at `https://phantom-list.netlify.app/`!
 
 ## 🧐 What's inside?
 
