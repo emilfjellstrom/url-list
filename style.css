@@ -87,6 +87,8 @@ form {
   transform: translateY(-15px);
   opacity: 0;
   transition: transform 200ms ease-in-out, opacity 300ms ease-in-out;
+  top: 25px;
+  left: 0;
 }
 
 #url-error.active {
