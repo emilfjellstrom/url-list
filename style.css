@@ -169,10 +169,6 @@ button[data-button] {
   color: #000;
 }
 
-#url-list.result-list .url-list-item .url-list-link {
-  margin: 0 auto;
-}
-
 #url-list .url-list-item .url-list-link::before {
   content: '';
   position: absolute;
