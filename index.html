@@ -12,22 +12,24 @@
           id="url"
           name="Url"
           type="url"
-          placeholder="Enter a valid URL"
+          class="inp-url"
+          placeholder="i.e http://example.com"
           required
         />
-        <label for="url">Submit a Link</label>
+        <label class="inp-label" for="url">Submit a Link</label>
         <span id="url-error" aria-live="polite"></span>
-        <button id="url-submit" type="submit">Submit</button>
+        <button id="url-submit" type="submit">
+          Add<img src="icon/add-white-18dp.svg" alt="add" height="16px" />
+        </button>
       </form>
     </section>
-    <section class="container">
-      <ul id="url-list"></ul>
+    <section id="url-list-container" class="container">
+      <ul id="url-list" class="secret"></ul>
       <div style="display: flex;">
         <button id="back-pagination"><</button>
         <div id="pagination"></div>
         <button id="forward-pagination">></button>
       </div>
-      <a class="result" href="result.html">Submit links</a>
     </section>
     <script src="script.js"></script>
   </body>
