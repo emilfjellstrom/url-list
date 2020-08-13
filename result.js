@@ -1,7 +1,6 @@
 let listOfUrls = [];
 let activePage = 1;
 
-const url = document.getElementById('url');
 const urlList = document.getElementById('url-list');
 const paginationList = document.getElementById('pagination');
 const backPagination = document.getElementById('back-pagination');
